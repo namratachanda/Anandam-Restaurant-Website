@@ -87,7 +87,11 @@ a:hover{
 }
 main{
     height : 100vh;
-    background-image: url("Images/claudia-soares-KejgVx9bVTc-unsplash.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(148, 141, 141, 0.5)
+      ),
+      url("Images/claudia-soares-KejgVx9bVTc-unsplash.jpg");
     background-size: 100vw 100vh;
 }
 #mainheading{
@@ -134,7 +138,7 @@ h3{
      background-color: transparent;
      color : rgb(244, 246, 192);
      font-family:Helvetica, sans-serif;
-     border:1px solid rgb(244, 246, 192);
+     border:3px solid rgb(244, 246, 192);
      border-radius: 70px;
      text-align: center;
      
@@ -146,8 +150,8 @@ h3{
     height: 70px;
     background-color: transparent;
     color : rgb(244, 246, 192);
-    font-family:Helvetica, sans-serif;
-    border:1px solid rgb(244, 246, 192);
+    font-family :Arial, Helvetica, sans-serif;
+    border:3px solid rgb(244, 246, 192);
     border-radius: 70px;
     text-align: center;   
 }
